@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D60303">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:background="@drawable/profile"
+            android:scaleType="fitCenter"
+            app:riv_mutate_background="true"
+            app:riv_oval="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:text="KELOMPOK8"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KELOMPOK8@UNHAS.AC.ID"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/all_sejarah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Sejarah"
+        android:textSize="18sp"
+        android:paddingTop="12dp"
+        android:paddingStart="12dp"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/sejarah"
+        android:drawablePadding="8dp"/>
+    <TextView
+        android:id="@+id/addsejarah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Sejarah"
+        android:textSize="18sp"
+        android:paddingTop="20dp"
+        android:paddingStart="12dp"
+        android:paddingBottom="20dp"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/add1"
+        android:drawablePadding="8dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/white"/>
+    <LinearLayout
+        android:id="@+id/btn_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:drawablePadding="8dp" />
+        <TextView
+            android:id="@+id/sejarahnabi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Sejarah Nabi"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/nabi" />
+        <TextView
+            android:id="@+id/sejarahahlifisika"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:text="Sejarah Ahli Fisika"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:paddingTop="20dp"
+            android:drawableStart="@drawable/ahlifisika"/>
+        <TextView
+            android:paddingTop="20dp"
+            android:id="@+id/sejarahpahlawan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:text="Sejarah Pahlawan"
+            android:drawableStart="@drawable/pahlawan"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
